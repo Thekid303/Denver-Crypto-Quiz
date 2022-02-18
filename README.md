@@ -31,7 +31,7 @@ THEN I can save my initials and my score
 ## Mock-Up
 
 ```
-https://thekid303.github.io/Denver-API-Crypto-Quiz/
+https://thekid303.github.io/Denver-Crypto-Quiz/
 ```
 
 # 
