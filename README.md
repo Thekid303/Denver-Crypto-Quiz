@@ -12,7 +12,12 @@ added divs with ids and classes to html to help the flow to js and css
 added css to style the page with color and containers 
 added js to add variables,timer,question arrays, and functions to bring it all together to work! 
 ```
-
+Resources 
+https://html-css-js.com/js/
+https://developer.mozilla.org/en-US/
+https://www.w3schools.com/js/js_intro.asp
+https://www.youtube.com/
+```
 
 
 
