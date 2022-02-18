@@ -1,0 +1,98 @@
+body {
+    background-size: auto;
+    background-color: springgreen;
+    font-family: monospace;
+    text-align: center;
+    padding: auto;
+}
+
+.timer {
+    position: fixed;
+    top: 25px;
+    right: 25px;
+    border: dotted 5px purple;
+    background-color: plum;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.container-color {
+    background-color: pink;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.btn-color {
+    background-color: gold;
+    border: solid 1px greenyellow;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    color: darkblue;
+}
+
+.btn-group {
+    text-align: left;
+    align-content: center;
+    cursor: pointer;
+    width: 40%;
+    display: block flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+h1 {
+    font-weight: bolder;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: blue;
+    i
+}
+
+h2 {
+    font-style: monspace;
+    padding-bottom: 1rem;
+    color: limegreen;
+
+}
+
+.question-text {
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    color: purple;
+}
+
+.result {
+    font-size: x-large;
+    font-style: italic;
+    margin-top: 5rem;
+    padding-top: 2rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.score-display {
+    color: #000;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    font-size: larger;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.record-score {
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
+
+.score-list {
+    font-size: larger;
+    color: yellow;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>Cryptocurrecy Quiz</title>
+
+    <!-- css start -->
+    <link rel='stylesheet' href='assets/css/style.css' />
+  
+</head>
+<body>
+    <!-- displays the timer-->
+    <div id='time' class='timer'>Time: 65</div>
+    
+    <!-- displays the starting block with quiz title -->
+    <div class='container container-color'>
+        <div id='start-prompt'>
+            <h1>Cryptocurrecy Quiz</h1>
+            <h2>Try to answer the following crypto related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds!</h2>
+            <button class='btn btn-primary btn-color' id='start'>Start Quiz!</button>
+        </div>
+        
+    <!-- displays question block where a question and answer buttons will display -->
+        <div id='question-container' style='display: none'>
+            <h3 class='question-text' id='question-text'></h3>
+            <div id='answers'></div>
+            <div id='result' class='result' style="display:none;"></div>
+        </div>
+        
+    <!-- displays score block where the user's score will display with previous scores  -->
+        <div id='score-container' style='display: none'>
+            <div class='score-display' id='score'></div>
+            <div class='score-display'>
+                <form method="POST">
+                <div id="initials-input">
+                    <label for="initials">Initials: </label>
+                    <input type="text" name="initials" id="user-initials" />
+                </div>
+                <br />
+                <div id="msg" class="record-score"></div>
+                <button id="record-score">Record Score</button>
+                </form>
+            </div>
+        </div>
+
+    <!-- displays score block where the user's score will display -->
+        <div id='hscore-container' style='display: none'>
+            <h3 class='question-text'>High Scores</h3>
+            <div class="score-list" id='high-score'></div>
+            <button class='btn btn-primary btn-color' id='play-again'>Play Again</button>
+            <button class='btn btn-primary btn-color' id='clear'>Clear</button>
+        </div>
+    </div>
+
+    <!-- javaScript Start-->
+    <script src='assets/js/script.js'></script>
+    
+</body>
+</html>
